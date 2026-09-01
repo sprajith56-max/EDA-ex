@@ -1,3 +1,4 @@
+<img width="425" height="118" alt="Screenshot 2026-09-01 204658" src="https://github.com/user-attachments/assets/c1d720dc-8103-4d1b-b85e-517ab41e46ea" />
 import pandas as pd
 
 # Load the dataset

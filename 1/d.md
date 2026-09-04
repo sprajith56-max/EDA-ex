@@ -1,8 +1,4 @@
 import pandas as pd
-df = pd.read_csv("myhospitals-contact-details.csv")
+df = pd.read_csv("hospital dataset.csv")
 df.info()
-
-
-
-
-<img width="569" height="429" alt="Screenshot 2026-09-01 153652" src="https://github.com/user-attachments/assets/12d52629-936b-4a62-8747-3b9c42d80515" />
+<img width="407" height="240" alt="Screenshot 2026-09-04 213317" src="https://github.com/user-attachments/assets/c6ccdef4-e3e0-4341-bf43-23ad929f59ee" />

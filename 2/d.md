@@ -1,9 +1,27 @@
-df_weather = pd.read_csv('/content/sample_data/weather_dataset_2025.csv')
-display(df_weather.info())
+import pandas as pd
+import matplotlib.pyplot as plt
 
+# Upload the dataset
+from google.colab import files
+uploaded = files.upload()
 
+# Get uploaded filename automatically
+filename = next(iter(uploaded))
 
+# Load the dataset
+df = pd.read_csv(filename)
 
+# Remove extra spaces from column names
+df.columns = df.columns.str.strip()
 
-<img width="632" height="242" alt="Screenshot 2026-09-01 154924" src="https://github.com/user-attachments/assets/b181ca10-d04a-4d4b-a5f8-6003701ad4f1" />
+# Create Box Plot
+plt.figure(figsize=(6, 5))
 
+plt.boxplot(df["Bill_Amount"])
+
+plt.title("Box Plot of Hospital Bill Amount")
+plt.ylabel("Bill Amount")
+
+plt.grid(True)
+
+plt.show()<img width="602" height="411" alt="Screenshot 2026-09-04 202622" src="https://github.com/user-attachments/assets/db69d0ad-7feb-4b6a-88a8-70910171508d" />

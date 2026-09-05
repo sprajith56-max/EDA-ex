@@ -13,4 +13,6 @@ t_value, p_value = ttest_ind(cricket, football)
 
 # Display results
 print("t-value :", t_value)
-print("p-value :", p_value)<img width="156" height="55" alt="Screenshot 2026-09-01 204246" src="https://github.com/user-attachments/assets/b4b82ab2-d205-4fba-bbf4-93b295af2e98" />
+print("p-value :", p_value)
+
+<img width="655" height="75" alt="Screenshot 2026-09-05 180606" src="https://github.com/user-attachments/assets/4f686cd2-6a3e-4431-9d26-299c054f77e8" />

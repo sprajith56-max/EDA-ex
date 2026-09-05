@@ -25,4 +25,7 @@ if p_value < alpha:
 else:
     print("\nConclusion:")
     print("Fail to Reject the Null Hypothesis (H0)")
-    print("There is no significant difference between Cricket and Football scores.")<img width="508" height="152" alt="Screenshot 2026-09-01 204449" src="https://github.com/user-attachments/assets/1a219ff5-485e-4207-bfbc-6207e3943a49" />
+    print("There is no significant difference between Cricket and Football scores.")
+
+    <img width="657" height="131" alt="Screenshot 2026-09-05 180831" src="https://github.com/user-attachments/assets/6be0614c-20eb-4519-b061-e5377651c411" />
+

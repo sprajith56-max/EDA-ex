@@ -1,4 +1,4 @@
-mport pandas as pd
+import pandas as pd
 import matplotlib.pyplot as plt
 # Load and process data
 df = pd.read_csv("Sports_Dataset.csv")
@@ -12,4 +12,6 @@ plt.title("3-Match Rolling Standard Deviation")
 plt.xlabel("Match Index")
 plt.ylabel("Standard Deviation")
 plt.grid(true,alpha=0.3)
-plt.show()<img width="658" height="247" alt="Screenshot 2026-09-01 203253" src="https://github.com/user-attachments/assets/0ed13ab4-e88d-4ead-97d9-f6aff6134c81" />
+plt.show()
+
+<img width="658" height="247" alt="Screenshot 2026-09-01 203253" src="https://github.com/user-attachments/assets/0ed13ab4-e88d-4ead-97d9-f6aff6134c81" />

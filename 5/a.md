@@ -20,3 +20,4 @@ corr_matrix = num_data.corr()
 print("Correlation Matrix")
 print(corr_matrix)
 
+<img width="531" height="112" alt="Screenshot 2026-09-05 100902" src="https://github.com/user-attachments/assets/5268f82c-e926-49aa-8ac2-b661cfea4132" />
